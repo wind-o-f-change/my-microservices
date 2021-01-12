@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: book-service
+  cloud:
+    config:
+      fail-fast: true
+
+server:
+  port: 8081
