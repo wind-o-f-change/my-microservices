@@ -25,6 +25,7 @@
     <modules>
         <module>eureka-discovery-server</module>
         <module>book-service</module>
+        <module>cloud-config</module>
     </modules>
 
 </project>

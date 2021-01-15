@@ -1,0 +1,6 @@
+server:
+  port: 8761
+
+logging:
+  level:
+    org.springframework.web.reactive.function.server.RouterFunctions: DEBUG

@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/book-service/book-service.iml" filepath="$PROJECT_DIR$/book-service/book-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config/cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-discovery-server/eureka-discovery-server.iml" filepath="$PROJECT_DIR$/eureka-discovery-server/eureka-discovery-server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/my-microservice.iml" filepath="$PROJECT_DIR$/.idea/my-microservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/my-microservice.iml" filepath="$PROJECT_DIR$/my-microservice.iml" />
     </modules>
   </component>
 </project>
