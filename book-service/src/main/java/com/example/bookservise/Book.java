@@ -1,4 +1,4 @@
-package com.example.magazineservice;
+package com.example.bookservise;
 
 import java.util.Random;
 
