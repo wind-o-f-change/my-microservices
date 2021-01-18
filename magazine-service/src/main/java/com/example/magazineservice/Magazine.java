@@ -1,4 +1,4 @@
-package com.example.bookservice;
+package com.example.magazineservice;
 
 import java.util.Random;
 
@@ -14,5 +14,11 @@ public class Magazine {
         this.id = id;
     }
 
+    public String getBookName() {
+        return bookName;
+    }
 
+    public void setBookName(String bookName) {
+        this.bookName = bookName;
+    }
 }
