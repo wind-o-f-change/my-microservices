@@ -8,4 +8,4 @@ spring:
           search-locations: classpath:/config
 
 server:
-  port: 123
+  port: 123   # default 8888
