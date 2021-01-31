@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: bookRoutes
+          uri: lb://book-service
+          predicates:
+            - Path=/book/**
+        - id: magRoutes
+          uri: lb://magazine-service
+          predicates:
+            - Path=/magazine/**
+#      loadbalancer:
+#        use404: true
+#        ribbon:
+#          enabled: false
