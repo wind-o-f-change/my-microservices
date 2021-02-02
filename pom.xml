@@ -27,6 +27,7 @@
         <module>eureka-discovery-server</module>
         <module>book-service</module>
         <module>magazine-service</module>
+        <module>getaway</module>
     </modules>
 
 </project>

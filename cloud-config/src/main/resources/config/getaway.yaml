@@ -4,15 +4,25 @@ server:
 spring:
   cloud:
     gateway:
+      discovery:
+        locator:
+          # Let gateway find the microservice from the service discovery component and reverse proxy
+          enabled: true
       routes:
         - id: bookRoutes
           uri: lb://book-service
+#          http://localhost:8081
           predicates:
             - Path=/book/**
+#          filters:
+#            - AddResponseHeader=My-Header-Good,Good
         - id: magRoutes
           uri: lb://magazine-service
+#          http://localhost:8082
           predicates:
             - Path=/magazine/**
+#          filters:
+#            - AddResponseHeader=My-Header-Good,Good
 #      loadbalancer:
 #        use404: true
 #        ribbon:
