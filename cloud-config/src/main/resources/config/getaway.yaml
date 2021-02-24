@@ -11,14 +11,14 @@ spring:
       routes:
         - id: bookRoutes
           uri: lb://book-service
-#          http://localhost:8081
+#          http://localhost:8081 #for local application.yaml
           predicates:
             - Path=/book/**
 #          filters:
 #            - AddResponseHeader=My-Header-Good,Good
         - id: magRoutes
           uri: lb://magazine-service
-#          http://localhost:8082
+#          http://localhost:8082 #for local application.yaml
           predicates:
             - Path=/magazine/**
 #          filters:
